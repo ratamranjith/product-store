@@ -1,0 +1,28 @@
+{
+  "name": "product-store",
+  "version": "1.0.0",
+  "description": "Simple Product Store",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon backend/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ratamranjith/product-store.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/ratamranjith/product-store/issues"
+  },
+  "homepage": "https://github.com/ratamranjith/product-store#readme",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mongoose": "^8.12.0",
+    "nodemon": "^3.1.9"
+  }
+}
